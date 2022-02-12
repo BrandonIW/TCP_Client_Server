@@ -1,0 +1,5 @@
+2022-02-11 21:03:20,569 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 21:03:35,591 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-11 21:03:45,592 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-11 21:03:55,592 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-11 21:03:55,592 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__

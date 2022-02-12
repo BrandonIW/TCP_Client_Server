@@ -1,0 +1,3 @@
+2022-02-11 21:03:00,559 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 21:03:00,559 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 21:03:20,569 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__

@@ -1,0 +1,193 @@
+2022-02-08 23:23:35,257 || WARNING || Client failed to connect to TCP Server 213.123.123.123:123 || __main__
+2022-02-08 23:39:58,404 || WARNING || 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
+2022-02-08 23:40:20,203 || WARNING || 127.0.0.1 was located but connection was actively refused on port 4143 || __main__
+2022-02-09 00:03:44,882 || WARNING || 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
+2022-02-09 00:05:49,482 || INFO || Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 00:05:59,489 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:06:09,499 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:38:20,723 || WARNING || 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
+2022-02-09 00:38:23,678 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:38:28,687 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:38:43,438 || WARNING || 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
+2022-02-09 00:38:46,404 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:38:51,409 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:38:56,415 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:39:46,684 || INFO || Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 00:39:46,684 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:39:51,693 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:39:56,699 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:39:56,699 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:39:56,700 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:40:01,703 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:40:06,703 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:40:06,703 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:40:11,705 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:40:36,355 || INFO || Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 00:40:36,355 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:40:36,355 || INFO || Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 00:40:41,357 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:40:41,357 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:40:41,358 || INFO || Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 00:40:46,371 || INFO || Queue is empty. No timeouts met for Tx/Rx || __main__
+2022-02-09 00:40:46,371 || INFO || Client sent data: b'This is Client Data' || __main__
+2022-02-09 00:40:46,372 || INFO || Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 20:19:02,550 || INFO || [*] Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 20:19:02,551 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:19:02,551 || INFO || [*] Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 20:19:07,562 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:19:07,563 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:19:07,563 || INFO || [*] Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 20:19:12,573 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:19:12,573 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:19:12,573 || INFO || [*] Successful Tx/Rx of data message. Client sent b'This is Client Data'.                 Server replied Server Reply Data || __main__
+2022-02-09 20:21:33,497 || INFO || [*] Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 20:21:33,498 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:21:38,510 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:21:43,512 || ERROR || [*] Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:21:43,512 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:21:43,513 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:21:48,514 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:21:53,526 || ERROR || [*] Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:21:53,526 || INFO || Thread 2: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:21:53,527 || INFO || [*] Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:37:31,912 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 20:37:31,913 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 20:37:36,924 || INFO || [T2]: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:37:41,914 || ERROR || [T1]: Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:37:46,926 || INFO || [T2]: No timeouts met for Tx/Rx || __main__
+2022-02-09 20:37:51,937 || INFO || [T2]: No timeouts met for Tx/Rx || __main__
+2022-02-09 21:15:24,657 || WARNING || [T1]: 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
+2022-02-09 21:16:13,376 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 21:16:13,377 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 21:16:23,379 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initiating Heartbeat || __main__
+2022-02-09 21:30:45,770 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 21:30:45,771 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 21:30:55,778 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:31:46,732 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 21:31:46,732 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 21:31:56,743 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:33:34,919 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 21:33:34,919 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 21:33:44,930 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:40:56,827 || INFO || [T1]: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 21:40:56,827 || INFO || [T1]: Client sent data: b'This is Client Data' || __main__
+2022-02-09 21:41:06,839 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:25:46,549 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:25:46,550 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:25:51,551 || INFO || Thread 1: Successful Tx/Rx. Client sent b'This is Client Request Data'. Server replied This is Server Reply Data || __main__
+2022-02-09 22:25:51,552 || INFO || Thread 1: Sleeping 5 until next data transfer || __main__
+2022-02-09 22:25:56,563 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:26:01,569 || INFO || Thread 1: Successful Tx/Rx. Client sent b'This is Client Request Data'. Server replied This is Server Reply Data || __main__
+2022-02-09 22:26:01,569 || INFO || Thread 1: Sleeping 5 until next data transfer || __main__
+2022-02-09 22:26:06,579 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:30:53,515 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:30:53,516 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:31:03,522 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:34:25,680 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:34:25,680 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:34:35,689 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:43:16,559 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:43:16,559 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:43:26,564 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:47:32,282 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:47:32,282 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:47:32,283 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'This is Client Request Data'' Server replied: 'This is Server Reply Data' || __main__
+2022-02-09 22:47:37,288 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:47:37,288 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'This is Client Request Data'' Server replied: 'This is Server Reply Data' || __main__
+2022-02-09 22:47:42,297 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:47:42,297 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'This is Client Request Data'' Server replied: 'This is Server Reply Data' || __main__
+2022-02-09 22:48:06,859 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-09 22:48:06,859 || INFO || Thread 1: Client sent data: b'This is Client Request Data' || __main__
+2022-02-09 22:48:16,864 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:46:51,066 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-10 22:46:51,067 || INFO || Thread 1: Client sent data: b'This is Client Data' || __main__
+2022-02-10 22:47:01,068 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:48:06,120 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-10 22:48:06,120 || INFO || Thread 1: Client sent data: b'This is Client Data' || __main__
+2022-02-10 22:48:16,130 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:49:52,018 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-10 22:49:52,018 || INFO || Thread 1: Client sent data: b'This is Client Data' || __main__
+2022-02-10 22:50:02,020 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-11 20:08:55,897 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:08:55,898 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:08:55,898 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:00,911 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:00,911 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:05,917 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:05,917 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:10,931 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:10,931 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:15,933 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:15,933 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:20,943 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:20,944 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:25,946 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:25,947 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:30,959 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:30,959 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:35,962 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:35,962 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:09:40,979 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:09:40,979 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:11:55,455 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:12:25,487 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:12:25,487 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:13:09,481 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:13:39,499 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:14:49,963 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:15:19,964 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:15:19,964 || INFO || Thread 1: Successful Tx/Rx. Client sent: 'b'CLIENT_DATA_MESSAGE'' Server replied: 'SERVER_DATA_REPLY' || __main__
+2022-02-11 20:15:54,980 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:17:42,010 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:32:19,383 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:32:19,383 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:32:39,398 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:32:44,399 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:32:54,415 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 14 more attempts || __main__
+2022-02-11 20:32:54,415 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:04,415 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 13 more attempts || __main__
+2022-02-11 20:33:04,415 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:14,415 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 12 more attempts || __main__
+2022-02-11 20:33:14,415 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:24,417 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 11 more attempts || __main__
+2022-02-11 20:33:24,417 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:34,446 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 10 more attempts || __main__
+2022-02-11 20:33:34,446 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:44,446 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 9 more attempts || __main__
+2022-02-11 20:33:44,446 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:33:54,448 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 8 more attempts || __main__
+2022-02-11 20:33:54,448 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:04,462 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 7 more attempts || __main__
+2022-02-11 20:34:04,462 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:14,463 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 6 more attempts || __main__
+2022-02-11 20:34:14,463 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:24,464 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 5 more attempts || __main__
+2022-02-11 20:34:24,464 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:34,479 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 4 more attempts || __main__
+2022-02-11 20:34:34,479 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:44,481 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 3 more attempts || __main__
+2022-02-11 20:34:44,481 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:34:54,483 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 2 more attempts || __main__
+2022-02-11 20:34:54,483 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:35:04,499 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 1 more attempts || __main__
+2022-02-11 20:35:04,499 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:35:14,500 || WARNING || Thread 2: No heartbeat received from server in 10 seconds.Will try 0 more attempts || __main__
+2022-02-11 20:35:14,500 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:35:24,502 || ERROR || Thread 2: No replies from server after 0 attempts. Terminating connection || __main__
+2022-02-11 20:37:42,279 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:37:42,294 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:38:02,296 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:38:07,312 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:38:17,313 || WARNING || Thread 2: No heartbeat received from server in 10 seconds. Will try 3 more attempt(s) || __main__
+2022-02-11 20:38:17,313 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:38:27,325 || WARNING || Thread 2: No heartbeat received from server in 10 seconds. Will try 2 more attempt(s) || __main__
+2022-02-11 20:38:27,325 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:38:37,341 || WARNING || Thread 2: No heartbeat received from server in 10 seconds. Will try 1 more attempt(s) || __main__
+2022-02-11 20:38:37,341 || INFO || Thread 2: Client sent heatbeat: b'MSG_HEARTBEAT' || __main__
+2022-02-11 20:38:47,342 || ERROR || Thread 2: No replies from server after 3 attempts. Terminating connection || __main__
+2022-02-11 20:47:11,062 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:47:11,062 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:47:31,065 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:50:46,064 || INFO || Thread 1: Client successfully connected to Server at 127.0.0.1:12345 || __main__
+2022-02-11 20:50:46,064 || INFO || Thread 1: Client sent data: b'CLIENT_DATA_MESSAGE' || __main__
+2022-02-11 20:51:06,064 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__

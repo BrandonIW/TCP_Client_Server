@@ -1,0 +1,25 @@
+2022-02-09 00:05:59,489 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:06:09,499 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:39:56,699 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 00:40:06,703 || ERROR || Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:21:43,512 || ERROR || [*] Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:21:53,526 || ERROR || [*] Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 20:37:41,914 || ERROR || [T1]: Did not receive a reply from server in 10 seconds || __main__
+2022-02-09 21:16:23,379 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initiating Heartbeat || __main__
+2022-02-09 21:30:55,778 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:31:56,743 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:33:44,930 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 21:41:06,839 || ERROR || [T1]: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:31:03,522 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:34:35,689 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:43:26,564 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-09 22:48:16,864 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:47:01,068 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:48:16,130 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-10 22:50:02,020 || ERROR || Thread 1: Did not receive a reply from server in 10 seconds. Initating Heartbeat || __main__
+2022-02-11 20:32:39,398 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:35:24,502 || ERROR || Thread 2: No replies from server after 0 attempts. Terminating connection || __main__
+2022-02-11 20:38:02,296 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:38:47,342 || ERROR || Thread 2: No replies from server after 3 attempts. Terminating connection || __main__
+2022-02-11 20:47:31,065 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+2022-02-11 20:51:06,064 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__

@@ -1,0 +1,15 @@
+2022-02-09 00:22:37,519 || WARNING || Server IP of 123.12.123.123 is invalid when establishing socket. Check interfaces || __main__
+2022-02-10 22:47:01,070 || WARNING || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-10 22:48:16,130 || WARNING || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-10 22:50:02,021 || WARNING || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:18:02,010 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:32:39,398 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:35:24,502 || WARNING || Thread 2: No client message detected in 10 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:38:02,296 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:38:47,342 || WARNING || Thread 2: No client message detected in 10 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:47:31,065 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:51:06,064 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-11 20:51:21,067 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-11 20:51:31,069 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-11 20:51:41,082 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-11 20:51:41,082 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__

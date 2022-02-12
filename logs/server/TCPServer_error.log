@@ -1,6 +1,0 @@
-2022-02-11 20:18:02,010 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
-2022-02-11 20:32:39,398 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
-2022-02-11 20:38:02,296 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
-2022-02-11 20:47:31,065 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
-2022-02-11 20:51:06,064 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
-2022-02-11 20:51:41,082 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__

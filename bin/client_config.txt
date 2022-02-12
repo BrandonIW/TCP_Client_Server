@@ -1,0 +1,5 @@
+[Settings]
+data_interval = 5
+heart_beat_interval = 5
+heart_beat_threshold = 10
+data_threshold = 10

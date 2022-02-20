@@ -1,4 +1,5 @@
 import configparser
+import datetime
 import logging
 import os
 import queue
@@ -85,7 +86,7 @@ def heartbeat_monitor(ip, port, hbeat_interval, hbeat_threshold, hbeat_additiona
         except queue.Empty:
             continue
 
-    sleep(5)  # Ensure that the server-side heartbeat is running first before continuing
+    # sleep(5)  # Ensure that the server-side heartbeat is running first before continuing
     hbeat_additional_int = int(hbeat_additional) + 1
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -95,7 +96,7 @@ def heartbeat_monitor(ip, port, hbeat_interval, hbeat_threshold, hbeat_additiona
 
     with client:
         while True:
-            sleep(500)  # Test 2nd to last paragraph
+            # sleep(500)  # Test 2nd to last paragraph
             client.sendall(client_heartbeat_data)
             logger.info(f"Thread 2: Client sent heartbeat: {client_heartbeat_data}")
 

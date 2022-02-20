@@ -53,17 +53,16 @@ def tcp_server(ip, port, data_threshold, logger, q):
         while True:
             try:
                 request = client.recv(1024).decode('utf-8')
-                if not request:  # Testing paragraph 3. If the client disconnects b/c it didn't receive a reply,
-                    # switches to heartbeat
-
+                if not request:
                     logger.warning(f"Thread 1: No client message detected in {data_threshold} seconds. "
                                    f"Initiating Heartbeat Server")
                     q.put(server)
                     break
-                # client.sendall(server_response)  - Testing Paragraph 3. If the client does not get a msg from the svr
+                #client.sendall(server_response)  #- Testing Paragraph 3. If the client does not get a msg from the svr
                 logger.info(f"Thread 1: Received client data: '{request}'. Sent Server Data: '{server_response}'")
 
             except socket.timeout:
+                sleep(1)
                 logger.error(f"Thread 1: No client message detected in {data_threshold} seconds. Initiating Heartbeat "
                              f"Server")
                 q.put(server)
@@ -89,7 +88,7 @@ def heartbeat_monitor(ip, port, hbeat_threshold, hbeat_additional, logger, q):
                 request = client.recv(1024).decode('utf-8')
                 if not request:
                     break
-                client.sendall(request)  # Test 3rd to last paragraph
+                client.sendall(request.encode())  # Test 3rd to last paragraph
                 logger.info(f"Thread 2: Received Heartbeat from Client: '{request}'. Echoing {request} back to client")
 
             except socket.timeout:
@@ -120,7 +119,7 @@ def _read_config():
 
     heartbeat_interval = config['Settings']['heart_beat_interval']
     heartbeat_threshold = config['Settings']['heart_beat_threshold']
-    heartbeat_additional_beats = config['Settings']['heart_beat_additional_tries']
+    heartbeat_additional_beats = config['Settings']['heart_beats_missed']
 
     data_interval = config['Settings']['data_interval']
     data_threshold = config['Settings']['data_threshold']

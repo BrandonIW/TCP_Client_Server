@@ -10,6 +10,8 @@ from concurrent.futures import ThreadPoolExecutor
 from logging.handlers import RotatingFileHandler
 from time import sleep
 
+# TODO: Termination message
+
 
 def main():
     """ Build Logger. Get validated IP and Port Number of TCP Server. Read parameters from configuration file.

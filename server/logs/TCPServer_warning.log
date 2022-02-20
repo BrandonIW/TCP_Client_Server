@@ -3,3 +3,47 @@
 2022-02-11 21:03:45,592 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
 2022-02-11 21:03:55,592 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
 2022-02-11 21:03:55,592 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__
+2022-02-19 11:05:45,543 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 11:06:00,560 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-19 11:06:10,569 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-19 11:06:20,577 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-19 11:06:20,577 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__
+2022-02-19 18:14:24,733 || WARNING || Thread 1: Server IP of 192.168.10.10 is invalid when establishing socket. Check interface IP Address || __main__
+2022-02-19 18:45:19,154 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:05:07,890 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:05:22,904 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-19 19:05:32,919 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-19 19:05:42,933 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-19 19:05:42,933 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__
+2022-02-19 19:06:20,052 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:07:25,395 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:30:07,845 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:42:23,334 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:52:34,453 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:54:20,023 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 19:56:15,209 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:01:34,666 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:02:59,382 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:04:01,072 || WARNING || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:05:13,637 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:06:15,267 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:08:34,167 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:10:06,260 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:12:21,348 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:18:44,277 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:31:31,885 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:31:45,898 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-19 20:31:55,908 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-19 20:32:05,921 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-19 20:32:05,921 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__
+2022-02-19 20:33:04,597 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:49:48,626 || ERROR || Thread 2: Missed 3 heartbeats from client. Terminating connection || __main__
+2022-02-19 20:54:39,685 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-19 20:54:53,711 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 1 || __main__
+2022-02-19 20:55:03,712 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 2 || __main__
+2022-02-19 20:55:13,712 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 3 || __main__
+2022-02-19 20:55:23,713 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 4 || __main__
+2022-02-19 20:55:33,714 || WARNING || Thread 2: No heartbeat recieved in 10 seconds. Heartbeats missed: 5 || __main__
+2022-02-19 20:55:33,714 || ERROR || Thread 2: Missed 5 heartbeats from client. Terminating connection || __main__
+2022-02-20 08:20:23,743 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__
+2022-02-20 08:35:53,452 || ERROR || Thread 1: No client message detected in 20 seconds. Initiating Heartbeat Server || __main__

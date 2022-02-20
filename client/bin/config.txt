@@ -2,6 +2,6 @@
 heart_beat_interval = 5
 heart_beat_threshold = 10
 heart_beat_additional_tries = 3
-data_interval = 5
+data_interval = 10
 data_threshold = 20
 

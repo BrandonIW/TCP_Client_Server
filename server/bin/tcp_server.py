@@ -25,7 +25,7 @@ def main():
 def tcp_server(ip, port, data_threshold, logger, q):
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server_response = b"SERVER_DATA_REPLY"
+    server_response = b"TERMINATE"   # Switch to TERMINATE to test termination message
 
     while True:
         try:
@@ -58,7 +58,7 @@ def tcp_server(ip, port, data_threshold, logger, q):
                                    f"Initiating Heartbeat Server")
                     q.put(server)
                     break
-                #client.sendall(server_response)  #- Testing Paragraph 3. If the client does not get a msg from the svr
+                client.sendall(server_response)
                 logger.info(f"Thread 1: Received client data: '{request}'. Sent Server Data: '{server_response}'")
 
             except socket.timeout:
@@ -96,9 +96,10 @@ def heartbeat_monitor(ip, port, hbeat_threshold, hbeat_additional, logger, q):
                 logger.warning(f"Thread 2: No heartbeat recieved in {hbeat_threshold} seconds. Heartbeats missed: "
                                f"{heartbeats_missed}")
                 if heartbeats_missed == int(hbeat_additional):
+                    logger.error(f"Thread 2: Missed {int(hbeat_additional)} heartbeats from client. Terminating connection")
                     break
 
-    logger.error(f"Thread 2: Missed {int(hbeat_additional)} heartbeats from client. Terminating connection")
+    logger.info(f"Program End")
 
 
 def _input_port_ip():

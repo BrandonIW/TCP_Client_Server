@@ -10,8 +10,6 @@ from concurrent.futures import ThreadPoolExecutor
 from logging.handlers import RotatingFileHandler
 from time import sleep
 
-# TODO: Termination message
-
 
 def main():
     """ Build Logger. Get validated IP and Port Number of TCP Server. Read parameters from configuration file.
@@ -62,31 +60,44 @@ def tcp_client(ip, port, data_interval, data_threshold, logger, q):
             logger.info(f"Thread 1: Client sent data: {client_data}")
 
             try:
-                response = client.recv(4096)
+                response = _terminate(client.recv(4096), client, logger)
+                if not response:
+                    q.put(False)
+                    break
+
                 logger.info(f"Thread 1: Successful Tx/Rx. Client sent: '{client_data}' Server replied: "
                             f"'{response.decode()}'")
                 print(f"Sleeping {data_interval} seconds until next data transfer...")
                 sleep(int(data_interval))
-                # if termination message; break
 
-            except socket.timeout:  # Testing paragraph 3 if the client does not recieve a msg from svr
-                logger.error(f"Thread 1: Did not receive a reply from server in {data_threshold} seconds. Initating "
+            except socket.timeout:
+                logger.error(f"Thread 1: Did not receive a reply from server in {data_threshold} seconds. Initiating "
                              f"Heartbeat")
                 q.put(True)
                 break
 
 
+def _terminate(msg, socket, logger):
+    if msg.decode() == "TERMINATE":
+        logger.info(f"Received termination message. Ending program")
+        socket.close()
+        return False
+    return msg
+
+
 def heartbeat_monitor(ip, port, hbeat_interval, hbeat_threshold, hbeat_additional, logger, q):
     while True:
         try:
-            q.get(timeout=5)
+            response = q.get(timeout=5)
             break
         except queue.Empty:
             continue
 
-    # sleep(5)  # Ensure that the server-side heartbeat is running first before continuing
-    hbeat_additional_int = int(hbeat_additional) + 1
+    if not response:
+        quit()
 
+    sleep(5)   # Ensure that the server-side heartbeat is running first before continuing
+    hbeat_additional_int = int(hbeat_additional) + 1
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.settimeout(int(hbeat_threshold))
     client_heartbeat_data = b"MSG_HEARTBEAT"
@@ -108,11 +119,12 @@ def heartbeat_monitor(ip, port, hbeat_interval, hbeat_threshold, hbeat_additiona
             except socket.timeout:
                 hbeat_additional_int -= 1
                 if hbeat_additional_int == 0:
+                    logger.error(f"Thread 2: No replies from server after {hbeat_additional} attempts. Terminating "
+                                 f"connection")
                     break
                 logger.warning(f"Thread 2: No heartbeat received from server in {hbeat_threshold} seconds. "
                                f"Will try {hbeat_additional_int} more attempt(s)")
-
-    logger.error(f"Thread 2: No replies from server after {hbeat_additional} attempts. Terminating connection")
+        logger.info(f"Program End")
 
 
 def _input_port_ip():

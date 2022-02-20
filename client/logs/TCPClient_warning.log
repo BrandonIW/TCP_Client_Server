@@ -1,15 +1,2 @@
 2022-02-11 21:03:20,569 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 10:31:37,586 || WARNING || Thread 1: Client failed to find IP Address 125.0.2.6 || __main__
-2022-02-19 11:04:37,150 || WARNING || Thread 1: 127.0.0.1 was located but connection was actively refused on port 12345 || __main__
-2022-02-19 11:05:45,543 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 18:23:49,134 || WARNING || Thread 1: Client failed to find IP Address 192.168.10.10 || __main__
-2022-02-19 18:25:27,488 || WARNING || Thread 1: 192.168.0.50 was located but connection was actively refused on port 12345 || __main__
-2022-02-19 18:25:46,321 || WARNING || Thread 1: 192.168.0.50 was located but connection was actively refused on port 12345 || __main__
-2022-02-19 18:27:46,452 || WARNING || Thread 1: Client failed to find IP Address 192.168.50.50 || __main__
-2022-02-19 18:45:19,154 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 19:05:07,890 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 19:06:20,052 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 19:07:25,395 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-19 20:01:34,666 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-20 08:20:22,742 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
-2022-02-20 08:35:52,449 || ERROR || Thread 1: Did not receive a reply from server in 20 seconds. Initating Heartbeat || __main__
+

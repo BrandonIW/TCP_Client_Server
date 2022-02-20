@@ -1,5 +1,4 @@
 import configparser
-import datetime
 import logging
 import os
 import queue
@@ -10,8 +9,6 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from logging.handlers import RotatingFileHandler
 from time import sleep
-
-# TODO: Termination message
 
 
 def main():
@@ -60,7 +57,6 @@ def tcp_client(ip, port, data_interval, data_threshold, logger, q):
     with client:
         while True:
             client.sendall(client_data)
-            # sleep(30) # Testing Paragraph 3 if the client does not send a msg to svr
             logger.info(f"Thread 1: Client sent data: {client_data}")
 
             try:
@@ -106,7 +102,6 @@ def heartbeat_monitor(ip, port, hbeat_interval, hbeat_threshold, hbeat_additiona
                             f"'{response.decode()}'")
                 print(f"Sleeping {hbeat_interval} seconds until next heartbeat transfer...")
                 sleep(int(hbeat_interval))
-                # if termination message; break
 
             except socket.timeout:
                 hbeat_additional_int -= 1
